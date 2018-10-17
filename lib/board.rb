@@ -53,7 +53,7 @@ class Board
 end
 end
   
-  def update(user_input, token)
+  def update(user_input)
     input = user_input.to_i - 1
     @cells[input] = token
     
