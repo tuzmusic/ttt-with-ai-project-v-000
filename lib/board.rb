@@ -54,7 +54,7 @@ end
 end
   
   def update(user_input, player)
-    @cells = 
+    @cells[] = 
   end
   
 end
