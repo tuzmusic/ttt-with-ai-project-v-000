@@ -53,8 +53,9 @@ class Board
 end
 end
   
-  def update(user_input, player)
-    @cells[] = 
+  def update(user_input, token)
+    input = user_input.to_i
+    
   end
   
 end
