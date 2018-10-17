@@ -55,6 +55,7 @@ end
   
   def update(user_input, token)
     input = user_input.to_i
+    @cells[input] = token
     
   end
   
